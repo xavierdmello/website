@@ -24,8 +24,9 @@
     @apply text-sm;
   }
 
-  .leftSide {
+  .dynamicPadding {
     padding-left: min(100px, 5%);
+    padding-right: min(100px, 5%);
   }
 
 }
