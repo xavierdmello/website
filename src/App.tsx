@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import Link from "./components/Link"
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <Header />
       <h4>INTRO</h4>
       <h1 className="text-3xl max-w-2xl 2xl:text-6xl 2xl:max-w-5xl">Hi, I'm Xavier, a Full-Stack Developer based out of Waterloo, Canada.</h1>
-      <b>About me</b>
+      <Link text="About me" href="https://www.xavierdmello.com/about"/>
     </div>
   );
 }
