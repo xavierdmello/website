@@ -8,7 +8,7 @@ function App() {
       <div className="fixed right-0 -z-1 float-right w-3/4 h-full bg-background"></div>
       <Header />
 
-      <div className="fixed flex flex-row w-full dynamicPadding">
+      <div className="fixed flex flex-row w-full p-4 sm:dynamicPadding">
         {/* Left Side */}
         <div>
           <h4 className="mb-6">INTRO</h4>
