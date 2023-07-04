@@ -24,6 +24,9 @@
     @apply text-sm;
   }
 
+  .leftSide {
+    padding-left: min(100px, 5%);
+  }
 
 }
 
