@@ -8,7 +8,7 @@ export default function Header() {
           </div>
           <Menu />
         </div>
-        <div className="h-48"></div>
+        <div className="h-24 sm:h-48"></div>
       </div>
     );
 }
