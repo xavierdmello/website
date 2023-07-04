@@ -1,16 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './styles/App.css'
-import Square from "./components/Square"
+import Header from "./components/Header"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1 className="text-4xl">nice</h1>
-      <Square/>
+    <Header/>
+      <h2>Hi, I'm Dan, a Product Designer based out of Orange County, CA.</h2>
+      <b>Check out the app</b>
+      <h4>INTRO</h4>
     </>
   );
 }
