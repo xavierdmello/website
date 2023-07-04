@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         gray: "#999999",
-        tan: "#ffe1c9",
+        primary: "#ffe1c9",
       },
     },
   },

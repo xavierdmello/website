@@ -10,10 +10,6 @@
     font-family: "Playfair Display", serif;
   }
 
-  h2 {
-    @apply text-[32px] leading-[43px];
-  }
-
   h4 {
     font-family: "Roboto Mono", monospace;
     @apply text-gray text-sm tracking-[2px];
@@ -27,4 +23,7 @@
   b {
     @apply text-sm;
   }
+
+
 }
+
