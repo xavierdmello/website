@@ -1,29 +1,27 @@
-import github from "../assets/github.png";
-import instagram from "../assets/instagram.png";
-import linkedin from "../assets/linkedin.png";
-import twitter from "../assets/twitter.png"
-import telegram from "../assets/telegram.png"
+import { faLinkedin, faTelegram, faTwitterSquare, faGithubSquare, faInstagramSquare, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faSquare } from "@fortawesome/free-solid-svg-icons";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Socials() {
   return (
     <div>
       <h4 className="mb-6">ELSEWHERE</h4>
       <div className="w-fit grid grid-cols-3 gap-4">
-        <a className="w-10 h-10  linkedin" href="https://www.linkedin.com/in/xavier-d-mello-552276240/">
-          <img src={linkedin} alt="LinkedIn Logo" />
+        <a href="https://www.linkedin.com/in/xavier-d-mello-552276240/">
+          <FontAwesomeIcon className="w-10 h-10 transition-all duration-300 hover:text-linkedin" icon={faLinkedin} />
         </a>
-        <a className="w-10 h-10 github" href="https://github.com/xavierdmello">
-          <img className="m-0 p-0" src={github} alt="Github Logo" />
+        <a href="https://github.com/xavierdmello">
+          <FontAwesomeIcon className="w-10 h-10 transition-all duration-300 hover:text-github" icon={faGithubSquare} />
         </a>
 
-        <a className="w-10 h-10 telegram" href="https://t.me/novaholonova">
-          <img src={telegram} alt="Telegram Logo" />
+        <a href="https://t.me/novaholonova">
+          <FontAwesomeIcon className="w-10 h-10 transition-all duration-300 hover:text-telegram" icon={faTelegram} />
         </a>
-        <a className="w-10 h-10  instagram" href="https://www.instagram.com/xavier.810/">
-          <img src={instagram} alt="Instagram Logo" />
+        <a href="https://www.instagram.com/xavier.810/">
+          <FontAwesomeIcon className="w-10 h-10 transition-all duration-300 hover:text-instagram" icon={faInstagramSquare} />
         </a>
-        <a className="w-10 h-10 twitter" href="https://twitter.com/nova_holo">
-          <img src={twitter} alt="Twitter Logo" />
+        <a href="https://twitter.com/nova_holo">
+          <FontAwesomeIcon className="w-10 h-10 transition-all duration-300 hover:text-twitter" icon={faTwitterSquare} />
         </a>
       </div>
     </div>
