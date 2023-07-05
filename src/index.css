@@ -16,7 +16,8 @@
   }
 
   b,
-  p,a {
+  p,
+  a {
     font-family: "Open Sans", sans-serif;
   }
 
@@ -27,5 +28,62 @@
   .dynamicPadding {
     padding-left: min(100px, 5%);
     padding-right: min(100px, 5%);
+  }
+
+  .fade1 {
+    animation: 1.5s ease-in-out 0s 1 fadeIn;
+  }
+
+  .fade2 {
+    animation: 1.8s ease-in-out 0s 1 fadeIn2;
+  }
+
+  .slide2 {
+    animation: slideIn2 1.8s forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    66% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn2 {
+    0% {
+      opacity: 0;
+    }
+
+    80% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideIn2 {
+    0% {
+      opacity: 0;
+      transform: translateX(-25px);
+    }
+
+    80% {
+      opacity: 0;
+      transform: translateX(-25px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX();
+    }
   }
 }

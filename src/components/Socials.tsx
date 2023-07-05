@@ -1,12 +1,12 @@
 import { faLinkedin, faTelegram, faTwitterSquare, faGithubSquare, faInstagramSquare, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faSquare } from "@fortawesome/free-solid-svg-icons";
-
+import Codec from "./Codec"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Socials() {
   return (
     <div>
-      <h4 className="mb-6">ELSEWHERE</h4>
-      <div className="w-fit grid grid-cols-3 gap-4">
+      <Codec text="ELSEWHERE" className="mb-6"/>
+      <div className="w-fit fade2 grid grid-cols-3 gap-4">
         <a href="https://www.linkedin.com/in/xavier-d-mello-552276240/">
           <FontAwesomeIcon className="w-10 h-10 transition-all duration-300 hover:text-linkedin" icon={faLinkedin} />
         </a>

@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import Menu from "./Menu";
 export default function Header() {
 
-
-
   return (
     <div>
       <div className="fixed p-4 w-full flex flex-row justify-between">
