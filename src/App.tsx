@@ -17,7 +17,7 @@ function App() {
             Hi, I'm Xavier, a Full-Stack Developer based out of Waterloo, Canada.
           </h1>
           <Link text="About me" href="https://www.xavierdmello.com/about" />
-          <div className="mb-10 xl:mb-20 2xl:mb-36"></div>
+          <div className="mb-10 2xl:mb-24"></div>
 
           <Socials />
 
