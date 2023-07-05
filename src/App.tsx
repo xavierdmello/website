@@ -6,10 +6,10 @@ function App() {
   return (
     <div>
       {/* Background */}
-      <div className="fixed right-0 -z-1 float-right w-3/4 h-full bg-background"></div>
+      <div className="fixed right-0 -z-10 float-right w-3/4 h-full bg-background"></div>
       <Header />
 
-      <div className="fixed flex flex-row w-full p-4 sm:dynamicPadding">
+      <div className="flex flex-row w-full p-4 sm:dynamicPadding">
         <div>
           {/* Left Side */}
           <h4 className="mb-6">INTRO</h4>
@@ -17,15 +17,17 @@ function App() {
             Hi, I'm Xavier, a Full-Stack Developer based out of Waterloo, Canada.
           </h1>
           <Link text="About me" href="https://www.xavierdmello.com/about" />
-          <div className="mb-10 2xl:mb-24"></div>
+          <div className="mb-6 md:mb-10 2xl:mb-24"></div>
 
           <Socials />
 
-          <div className="mb-12"></div>
+          <div className="mb-6 md:mb-10"></div>
           <h4>EMAIL</h4>
-          <a href="mailto:hello@xavierdmello.com">hello@xavierdmello.com</a>
+          <a className="appearance-none" href="mailto:hello@xavierdmello.com">
+            hello@xavierdmello.com
+          </a>
 
-          <div className="mb-12"></div>
+          <div className="mb-6 md:mb-10"></div>
           <h4>DISCORD</h4>
           <p>tacocat9293</p>
         </div>
