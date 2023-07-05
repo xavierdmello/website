@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       {/* Background */}
-      <div className="fixed right-0 fadeBg -z-1 float-right w-3/4 h-full bg-background"></div>
+      <div className="fixed right-0 fadeBg -z-10 float-right w-3/4 h-full bg-background"></div>
       <Header />
 
       <div className="flex flex-row w-full p-4 sm:dynamicPadding">
