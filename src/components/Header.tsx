@@ -4,7 +4,7 @@ export default function Header() {
 
   return (
     <div>
-      <div className="fixed p-4 w-full flex flex-row justify-between">
+      <div className="fixed z-10 p-4 w-full flex flex-row justify-between">
         {/* Logo */}
         <a
           href="https://www.xavierdmello.com"
