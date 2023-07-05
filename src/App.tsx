@@ -1,8 +1,15 @@
+import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Link from "./components/Link";
 import Socials from "./components/Socials";
 
 function App() {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
+
   return (
     <div>
       {/* Background */}
@@ -12,7 +19,7 @@ function App() {
       <div className="flex flex-row w-full p-4 sm:dynamicPadding">
         <div>
           {/* Left Side */}
-          <h4 className="mb-6">INTRO</h4>
+          <h4 className={`mb-6 transition-all duration-1000 opacity-0 ${loaded && "opacity-100"}`}>INTRO</h4>
           <h1 className="2xl:mb-12 mb-6 text-2xl sm:text-3xl max-w-2xl 2xl:text-6xl 2xl:max-w-5xl">
             Hi, I'm Xavier, a Full-Stack Developer based out of Waterloo, Canada.
           </h1>
