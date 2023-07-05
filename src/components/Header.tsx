@@ -13,7 +13,7 @@ export default function Header() {
 
         <Menu />
       </div>
-      <div className="h-24 sm:h-44"></div>
+      <div className="h-24 sm:h-40"></div>
     </div>
   );
 }
