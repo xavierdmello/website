@@ -17,17 +17,17 @@ function App() {
             Hi, I'm Xavier, a Full-Stack Developer based out of Waterloo, Canada.
           </h1>
           <Link text="About me" href="https://www.xavierdmello.com/about" />
-          <div className="mb-6 md:mb-10 2xl:mb-24"></div>
+          <div className="mb-10 2xl:mb-24"></div>
 
           <Socials />
 
-          <div className="mb-6 md:mb-10"></div>
+          <div className="mb-10"></div>
           <h4>EMAIL</h4>
           <a className="appearance-none" href="mailto:hello@xavierdmello.com">
             hello@xavierdmello.com
           </a>
 
-          <div className="mb-6 md:mb-10"></div>
+          <div className="mb-10"></div>
           <h4>DISCORD</h4>
           <p>tacocat9293</p>
         </div>
