@@ -14,6 +14,9 @@ export default {
         instagram: "#E1306C",
         twitter: "#1DA1F2",
       },
+      screens: {
+        '3xl': '1920px'
+      }
     },
   },
   plugins: [],
