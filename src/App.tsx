@@ -45,7 +45,7 @@ function App() {
           <Codec text="MY WORK" className="mb-6 text-right" />
           <ul>
             <li>
-              <h1 className="3xl:text-8xl 3xl:mb-11 mb-7 text-5xl font-bold text-right ">Experince</h1>
+              <h1 className="3xl:text-8xl 3xl:mb-11 mb-7 text-5xl font-bold text-right ">Experience</h1>
             </li>
             <li>
               <h1 className="3xl:text-8xl 3xl:mb-11 mb-7 text-5xl font-bold text-right">Hackathons</h1>
