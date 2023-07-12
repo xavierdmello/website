@@ -30,8 +30,8 @@
     padding-right: min(100px, 5%);
   }
 
-  .fadeBg {
-    animation: fadeInBg 1s;
+  .fade0 {
+    animation: 1s ease-in-out 0s 1 fadeIn;
   }
 
   .fade1 {
@@ -41,7 +41,7 @@
   }
 
   .fade2 {
-    animation: 1.5s ease-in-out 0s 1 fadeIn;
+    animation: 1s ease-in-out 0s 1 fadeIn;
     animation-fill-mode: forwards;
     animation-delay: 1000ms;
   }

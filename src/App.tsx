@@ -18,7 +18,7 @@ function App() {
     <div>
       {/* Background */}
       {/* Not using background-image because of bug with tailwind */}
-      <div className={`fixed right-0 fadeBg -z-10 float-right transition-all w-3/4 h-full bg-background`}></div>
+      <div className={`fixed right-0 fade0 -z-10 float-right transition-all w-3/4 h-full bg-background`}></div>
       <BgImage image={experience} name="experience" active={bg === "bg-experience"} />
       <BgImage image={hackathons} name="hackathons" active={bg === "bg-hackathons"} />
       <BgImage image={projects} name="projects" active={bg === "bg-projects"} />
