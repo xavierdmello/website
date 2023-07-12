@@ -6,7 +6,7 @@ export default function Socials() {
   return (
     <div>
       <Codec text="ELSEWHERE" className="mb-6" />
-      <div className="w-fit fade2 grid grid-cols-3 gap-4">
+      <div className="w-fit fade2 opacity-0 grid grid-cols-3 gap-4">
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/xavier-d-mello-552276240/ ">
           <FontAwesomeIcon className="w-10 h-10 transition-all duration-300 hover:text-linkedin" icon={faLinkedin} />
         </a>
