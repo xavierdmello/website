@@ -13,7 +13,10 @@ export default {
         github: "#333333",
         instagram: "#E1306C",
         twitter: "#1DA1F2",
-        projects: "#A52A2A",
+      },
+      backgroundImage: {
+          "hackathons": "url('/src/assets/hackathons.png')",
+          "experience": "url('/src/assets/experience.png')",
       },
       screens: {
         "3xl": "1920px",

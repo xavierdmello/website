@@ -44,19 +44,18 @@ function App() {
         <div>
           {/* Right Side */}
           <Codec text="MY WORK" className="mb-6 text-right" />
-          <p>{bg}</p>
           <ul>
             <li>
-              <Giant text="Experience" hoverBg={() => setBg("bg-experience")} />
+              <Giant text="Experience" onHover={setBg} />
             </li>
             <li>
-              <Giant text="Hackathons" hoverBg={() => setBg("bg-hackathons")} />
+              <Giant text="Hackathons" onHover={setBg} />
             </li>
             <li>
-              <Giant text="Projects" hoverBg={() => setBg("bg-projects")} />
+              <Giant text="Projects" onHover={setBg} />
             </li>
             <li>
-              <Giant text="Contacts" hoverBg={() => setBg("bg-contacts")} />
+              <Giant text="Contacts" onHover={setBg} />
             </li>
           </ul>
         </div>
