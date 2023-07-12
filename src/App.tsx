@@ -3,15 +3,16 @@ import Header from "./components/Header";
 import Link from "./components/Link";
 import Socials from "./components/Socials";
 import Codec from "./components/Codec";
-
+import Giant from "./components/Giant";
 
 function App() {
-  
+  const [bg, setBg] = useState("bg-background");
 
   return (
     <div>
       {/* Background */}
-      <div className="fixed right-0 fadeBg -z-10 float-right w-3/4 h-full bg-background"></div>
+      <div className={`fixed right-0 fadeBg -z-10 float-right transition-all w-3/4 h-full ${bg}`}></div>
+
       <Header />
 
       <div className="flex flex-row w-full p-4 justify-between sm:dynamicPadding">
@@ -43,18 +44,19 @@ function App() {
         <div>
           {/* Right Side */}
           <Codec text="MY WORK" className="mb-6 text-right" />
+          <p>{bg}</p>
           <ul>
             <li>
-              <h1 className="3xl:text-8xl 3xl:mb-11 mb-7 text-5xl font-bold text-right ">Experience</h1>
+              <Giant text="Experience" hoverBg={() => setBg("bg-experience")} />
             </li>
             <li>
-              <h1 className="3xl:text-8xl 3xl:mb-11 mb-7 text-5xl font-bold text-right">Hackathons</h1>
+              <Giant text="Hackathons" hoverBg={() => setBg("bg-hackathons")} />
             </li>
             <li>
-              <h1 className="3xl:text-8xl 3xl:mb-11 mb-7 text-5xl font-bold text-right">Projects</h1>
+              <Giant text="Projects" hoverBg={() => setBg("bg-projects")} />
             </li>
             <li>
-              <h1 className="3xl:text-8xl 3xl:mb-11 mb-7 text-5xl font-bold text-right">Contacts</h1>
+              <Giant text="Contacts" hoverBg={() => setBg("bg-contacts")} />
             </li>
           </ul>
         </div>

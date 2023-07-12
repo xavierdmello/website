@@ -13,10 +13,11 @@ export default {
         github: "#333333",
         instagram: "#E1306C",
         twitter: "#1DA1F2",
+        projects: "#A52A2A",
       },
       screens: {
-        '3xl': '1920px'
-      }
+        "3xl": "1920px",
+      },
     },
   },
   plugins: [],

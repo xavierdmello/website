@@ -46,6 +46,7 @@
     animation: slideIn2 1.8s forwards;
   }
 
+
   @keyframes fadeInBg {
     from {
       opacity: 0;
