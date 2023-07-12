@@ -30,7 +30,7 @@ function App() {
         <div>
           {/* Left Side */}
           <Codec text="INTRO" className="mb-6" />
-          <div className="slide opacity-0 ">
+          <div className="slide">
             <h1 className="3xl:mb-12 z-10 mb-6 relative text-2xl sm:text-3xl max-w-2xl 3xl:text-6xl 2xl:max-w-5xl">
               Hi, I'm Xavier, a Full-Stack Developer based out of Waterloo, Canada.
             </h1>
@@ -43,13 +43,13 @@ function App() {
 
           <div className="mb-10"></div>
           <Codec text="EMAIL" />
-          <a className="fade2 opacity-0" href="mailto:hello@xavierdmello.com">
+          <a className="fade2" href="mailto:hello@xavierdmello.com">
             hello@xavierdmello.com
           </a>
 
           <div className="mb-10"></div>
           <Codec text="DISCORD" />
-          <p className="fade2 opacity-0">tacocat9293</p>
+          <p className="fade2">tacocat9293</p>
         </div>
 
         <div className="hidden md:block">
