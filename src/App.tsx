@@ -80,7 +80,7 @@ function BgImage(props: {image: string, name: string, active: boolean}) {
     <img
       src={props.image}
       alt={props.name}
-      className={`fixed object-cover right-0 -z-10 float-right transition-all duration-[1200ms] w-3/4 h-full opacity-0 ${props.active && "opacity-50"}`}
+      className={`fixed object-cover right-0 -z-10 float-right ease-linear duration-[1200ms] w-3/4 h-full opacity-0 ${props.active && "opacity-75"}`}
     />
   );
 }
