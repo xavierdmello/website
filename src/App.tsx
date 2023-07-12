@@ -7,8 +7,8 @@ import Giant from "./components/Giant";
 
 // image imports
 import experience from "./assets/experience.jpg";
-import hackathons from "./assets/hackathons.png";
-import projects from "./assets/projects.png";
+import hackathons from "./assets/hackathons.jpg";
+import projects from "./assets/projects.jpg";
 import contacts from "./assets/contacts.jpg";
 
 function App() {
