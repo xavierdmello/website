@@ -68,7 +68,7 @@ function App() {
           <p className="fade2">tacocat9293</p>
         </div>
 
-        <div className="hidden sm:block z-10">
+        <div className="hidden md:block z-10">
           {/* Right Side */}
           <Codec text="MY WORK" className="mb-6 text-right" />
           <ul>
