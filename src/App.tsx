@@ -50,7 +50,9 @@ function App() {
           <div className="mb-10"></div>
           <Codec text="DISCORD" />
           <p className="fade2">tacocat9293</p>
+          <p className="mb-[1000px]"></p>
         </div>
+        
 
         <div className="hidden md:block">
           {/* Right Side */}
