@@ -37,19 +37,11 @@ function App() {
             <Link text="About me" href="https://www.xavierdmello.com/about" />
           </div>
 
-          <div className="mb-10 2xl:mb-24"></div>
+          <div className="mb-32 "></div>
 
           <Socials />
 
-          <div className="mb-10"></div>
-          <Codec text="EMAIL" />
-          <a className="fade2" href="mailto:hello@xavierdmello.com">
-            hello@xavierdmello.com
-          </a>
 
-          <div className="mb-10"></div>
-          <Codec text="DISCORD" />
-          <p className="fade2">tacocat9293</p>
         </div>
 
         <div className="hidden md:block">
