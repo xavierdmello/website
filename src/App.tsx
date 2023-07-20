@@ -37,7 +37,7 @@ function App() {
             <Link text="About me" href="https://www.xavierdmello.com/about" />
           </div>
 
-          <div className="mb-32 "></div>
+          <div className="mb-16 sm:mb-32 3xl:mb-80"></div>
 
           <Socials />
 
