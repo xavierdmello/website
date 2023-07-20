@@ -7,7 +7,7 @@ export default function Sidebar(props: {showSidebar: boolean}) {
       <div
         className={`fixed w-full sm:w-[500px] 3xl:w-[800px] bg-primary  ${
           props.showSidebar ? "translate-x-0 visible" : "translate-x-full invisible"
-        } flex flex-col justify-center items-center h-full transition-all shadow-lg duration-[600ms] z-10`}
+        } flex flex-col justify-center transform-gpu items-center h-full transition-all shadow-lg duration-[600ms] z-10`}
       >
         <ul className="w-full dynamicPadding sm:w-auto">
           {menuOptions.map((option, index) => {
