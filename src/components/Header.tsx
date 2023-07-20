@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import Menu from "./Menu";
-import Giant from "./Giant";
+import MenuButton from "./MenuButton";
+import Sidebar from "./Sidebar";
+
 export default function Header() {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showSidebar, setShowMenu] = useState(false);
 
   return (
     <div>
@@ -15,33 +16,20 @@ export default function Header() {
           <h1 className="text-2xl font-bold">xd.</h1>
         </a>
 
-        <Menu showMenu={showMenu} handleClick={setShowMenu} />
+        <MenuButton showSidebar={showSidebar} handleClick={setShowMenu} />
       </div>
 
       <div className="flex justify-end align-middle">
-        <div className={`${showMenu ? "visible opacity-100" : "invisible opacity-0"} fixed w-full h-full backdrop-blur-xl transform-gpu transition-all duration-300 z-[2]`}></div>
+        {/* Sidebar background blur */}
         <div
-          className={`fixed w-full sm:w-96 3xl:w-[800px] bg-white items-center ${
-            showMenu ? "translate-x-0" : "translate-x-full"
-          } flex align-bottom justify-center h-full transition-all duration-[600ms] z-10`}
-        >
-          <ul>
-            <li>
-              <Giant text="Experience" />
-            </li>
-            <li>
-              <Giant text="Hackathons" />
-            </li>
-            <li>
-              <Giant text="Projects" />
-            </li>
-            <li>
-              <Giant text="Contact" />
-            </li>
-          </ul>
-        </div>
-        <div className="h-24 sm:h-40"></div>
+          className={`${
+            showSidebar ? "visible opacity-100" : "invisible opacity-0"
+          } fixed w-full h-full backdrop-blur-xl transform-gpu transition-all duration-300 z-[2]`}
+        ></div>
+
+        <Sidebar showSidebar={showSidebar} />
       </div>
+      <div className="h-24 sm:h-40"></div>
     </div>
   );
 }
