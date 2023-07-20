@@ -29,7 +29,7 @@ export default function Header() {
 
         <Sidebar showSidebar={showSidebar} />
       </div>
-      <div className="h-24 sm:h-40"></div>
+
     </div>
   );
 }
