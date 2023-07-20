@@ -19,7 +19,7 @@ export default function Header() {
       </div>
 
       <div className="flex justify-end align-middle">
-        <div className={`${showMenu ? "opacity-100" : "opacity-0"} fixed w-full h-full backdrop-blur-xl transform-gpu transition-all duration-300 z-[2]`}></div>
+        <div className={`${showMenu ? "visible " : "invisible"} fixed w-full h-full backdrop-blur-xl transform-gpu transition-all duration-300 z-[2]`}></div>
         <div
           className={`fixed w-full sm:w-96 bg-white items-center ${
             showMenu ? "translate-x-0" : "translate-x-full"
