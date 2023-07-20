@@ -16,7 +16,7 @@ export default function Header() {
 
         <Menu showMenu={showMenu} handleClick={setShowMenu} />
       </div>
-      <div className={`fixed ${showMenu ? "translate-x-0" : "translate-x-full"} w-full h-full bg-white transition-all duration-500 z-10`}></div>
+      <div className={`fixed ${showMenu ? "translate-x-0" : "translate-x-full"} w-full h-full bg-white transition-all duration-[600ms] z-10`}></div>
       <div className="h-24 sm:h-40"></div>
     </div>
   );
