@@ -9,7 +9,7 @@ import Giant from "./components/Giant";
 import experience from "./assets/experience.jpg";
 import hackathons from "./assets/hackathons.jpg";
 import projects from "./assets/projects.jpg";
-import contacts from "./assets/contact.jpg";
+import contact from "./assets/contact.jpg";
 
 function App() {
   const [bg, setBg] = useState("bg-background");
@@ -22,7 +22,7 @@ function App() {
       <BgImage image={experience} name="experience" active={bg === "bg-experience"} />
       <BgImage image={hackathons} name="hackathons" active={bg === "bg-hackathons"} />
       <BgImage image={projects} name="projects" active={bg === "bg-projects"} />
-      <BgImage image={contacts} name="contacts" active={bg === "bg-contacts"} />
+      <BgImage image={contact} name="contacts" active={bg === "bg-contact"} />
 
       <Header />
 
