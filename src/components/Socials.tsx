@@ -1,5 +1,5 @@
-import { faLinkedin, faTelegram, faTwitterSquare, faGithubSquare, faInstagramSquare, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faSquare } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faTelegram, faTwitterSquare, faGithubSquare, faInstagramSquare,  } from "@fortawesome/free-brands-svg-icons";
+import { faSquare, faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Codec from "./Codec"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Socials() {
@@ -22,6 +22,9 @@ export default function Socials() {
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nova_holo">
           <FontAwesomeIcon className="w-10 h-10 transition-all duration-300 hover:text-twitter" icon={faTwitterSquare} />
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="mailto:hello@xavierdmello.com">
+          <FontAwesomeIcon className="w-10 h-10 transition-all duration-300 hover:text-email" icon={faSquareEnvelope} />
         </a>
       </div>
     </div>
