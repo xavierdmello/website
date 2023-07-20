@@ -1,33 +1,27 @@
 import Giant from "./Giant";
-import CodecUnderline from "./CodecUnderline";
+import Codec from "./Codec";
 export default function Sidebar(props: {showSidebar: boolean}) {
+
+    const menuOptions = ["About", "Experience", "Hackathons", "Projects", "Contact"]
     return (
       <div
         className={`fixed w-full sm:w-[500px] 3xl:w-[800px] bg-white  ${
           props.showSidebar ? "translate-x-0" : "translate-x-full"
         } flex flex-col justify-center items-center h-full transition-all duration-[600ms] z-10`}
       >
-        <ul>
-          <li>
-            <Giant text="About" className="mb-2" />
-            <CodecUnderline text="01" className="mb-3" />
-          </li>
-          <li>
-            <Giant text="Experience" className="mb-2" />
-            <CodecUnderline text="02" className="mb-3" />
-          </li>
-          <li>
-            <Giant text="Hackathons" className="mb-2" />
-            <CodecUnderline text="03" className="mb-3" />
-          </li>
-          <li>
-            <Giant text="Projects" className="mb-2" />
-            <CodecUnderline text="04" className="mb-3" />
-          </li>
-          <li>
-            <Giant text="Contact" className="mb-2" />
-            <CodecUnderline text="05" className="mb-3" />
-          </li>
+        <ul className="w-full dynamicPadding sm:w-auto">
+          {menuOptions.map((option, index) => {
+            return (
+              <li className="mb-6">
+                <div className="flex flex-row justify-between items-end mb-2">
+                  <Codec text={`0${index + 1}`} />
+                  <Giant text={option} />
+                </div>
+
+                <div className="bg-gray w-full sm:w-[350px] 3xl:w-[675px] h-[0.7px]"></div>
+              </li>
+            );
+          })}
         </ul>
       </div>
     );
