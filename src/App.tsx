@@ -31,7 +31,7 @@ function App() {
           {/* Left Side */}
           <Codec text="INTRO" className="mb-6" />
           <div className="slide">
-            <h1 className="3xl:mb-12 z-10 mb-6 relative text-2xl sm:text-3xl max-w-none md:max-w-sm lg:max-w-3xl 3xl:text-6xl 3xl:max-w-5xl ">
+            <h1 className="3xl:mb-12 mb-6 relative text-2xl sm:text-3xl max-w-none md:max-w-sm lg:max-w-3xl 3xl:text-6xl 3xl:max-w-5xl ">
               Hi, I'm Xavier, a Full-Stack Developer based out of Waterloo, Canada.
             </h1>
             <Link text="About me" href="https://www.xavierdmello.com/about" />
@@ -50,9 +50,7 @@ function App() {
           <div className="mb-10"></div>
           <Codec text="DISCORD" />
           <p className="fade2">tacocat9293</p>
-          <p className="mb-[1000px]"></p>
         </div>
-        
 
         <div className="hidden md:block">
           {/* Right Side */}
@@ -82,7 +80,7 @@ function BgImage(props: { image: string; name: string; active: boolean }) {
     <img
       src={props.image}
       alt={props.name}
-      className={`fixed object-cover right-0 -z-10 float-right transition-all duration-[800ms] w-3/4 h-full opacity-0 ${props.active && "opacity-70"}`}
+      className={`fixed object-cover right-0 float-right transition-all duration-1000 w-3/4 h-full opacity-0 ${props.active && "opacity-70"}`}
     />
   );
 }
