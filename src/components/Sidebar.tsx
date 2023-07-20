@@ -1,4 +1,5 @@
 import Giant from "./Giant";
+import CodecUnderline from "./CodecUnderline";
 export default function Sidebar(props: {showSidebar: boolean}) {
     return (
       <div
@@ -7,21 +8,25 @@ export default function Sidebar(props: {showSidebar: boolean}) {
         } flex flex-col justify-center items-center h-full transition-all duration-[600ms] z-10`}
       >
         <ul>
-
           <li>
-            <Giant text="About" />
+            <Giant text="About" className="mb-1" />
+            <CodecUnderline text="01" className="mb-3" />
           </li>
           <li>
-            <Giant text="Experience" />
+            <Giant text="Meow" className="mb-1" />
+            <CodecUnderline text="02" className="mb-3" />
           </li>
           <li>
-            <Giant text="Hackathons" />
+            <Giant text="Hackathons" className="mb-1" />
+            <CodecUnderline text="03" className="mb-3" />
           </li>
           <li>
-            <Giant text="Projects" />
+            <Giant text="Projects" className="mb-1" />
+            <CodecUnderline text="04" className="mb-3" />
           </li>
           <li>
-            <Giant text="Contact" />
+            <Giant text="Contact" className="mb-1" />
+            <CodecUnderline text="05" className="mb-3" />
           </li>
         </ul>
       </div>
