@@ -66,7 +66,7 @@ function App() {
               <Giant text="Projects" onHover={setBg} className="gs3" />
             </li>
             <li>
-              <Giant text="Contacts" onHover={setBg} className="gs4" />
+              <Giant text="Contact" onHover={setBg} className="gs4" />
             </li>
           </ul>
         </div>
