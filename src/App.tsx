@@ -9,7 +9,7 @@ import Giant from "./components/Giant";
 import experience from "./assets/experience.jpg";
 import hackathons from "./assets/hackathons.jpg";
 import projects from "./assets/projects.jpg";
-import contacts from "./assets/contacts.jpg";
+import contacts from "./assets/contact.jpg";
 
 function App() {
   const [bg, setBg] = useState("bg-background");
