@@ -2,7 +2,7 @@ import { useState } from "react";
 export default function Menu(props:{showSidebar: boolean, handleClick: (arg0: boolean) => void}) {
   return (
     <div
-      className={`w-12 z-[11] h-12 border-black border-[1px] select-none justify-center items-center flex flex-col bg-highlight hover:cursor-pointer`}
+      className={`w-12 z-[11] h-12 border-gray border-[1px] select-none justify-center items-center flex flex-col bg-highlight hover:cursor-pointer`}
       onClick={() => props.handleClick(!props.showSidebar)}
     >
       {/* Button */}
