@@ -12,14 +12,14 @@ import Link from "../Link";
 import Socials from "../Socials";
 
 export default function Hero() {
-  const [bg, setBg] = useState("bg-background");
+  const [bg, setBg] = useState("bg-secondary");
 
   return (
     <div className="flex flex-row justify-between h-screen relative p-4 pt-0 sm:dynamicPadding min-h-[500px] sm:min-h-[700px]">
       {/* Background */}
       {/* Not using background-image because of bug with tailwind */}
-      <div className={`absolute left-0 fade0 -z-10  transition-all w-1/2 h-full bg-tan`}></div>
-      <div className={`absolute right-0 fade0 -z-10  transition-all w-1/2 h-full bg-background`}></div>
+      <div className={`absolute left-0 fade0 -z-10  transition-all w-1/2 h-full bg-primary`}></div>
+      <div className={`absolute right-0 fade0 -z-10  transition-all w-1/2 h-full bg-secondary`}></div>
       <BgImage image={experience} name="experience" active={bg === "bg-experience"} />
       <BgImage image={hackathons} name="hackathons" active={bg === "bg-hackathons"} />
       <BgImage image={projects} name="projects" active={bg === "bg-projects"} />
@@ -70,7 +70,7 @@ function BgImage(props: { image: string; name: string; active: boolean }) {
     <img
       src={props.image}
       alt={props.name}
-      className={`absolute object-cover right-0 float-right transition-all duration-1000 w-3/4 h-full opacity-0 ${props.active && "opacity-70"}`}
+      className={`absolute object-cover right-0 float-right transition-all duration-1000 w-1/2 h-full opacity-0 ${props.active && "opacity-70"}`}
     />
   );
 }

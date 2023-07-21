@@ -6,7 +6,7 @@
 @layer base {
 
   html {
-    @apply bg-tan
+    @apply bg-primary
   }
   h1,
   h2,

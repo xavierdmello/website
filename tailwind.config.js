@@ -6,15 +6,14 @@ export default {
     extend: {
       colors: {
         gray: "#999999",
-        background: "#f5f5f5",
-        primary: "#ffe1c9",
+        secondary: "#f5f5f5",
+        primary: "#ECEAE3",
         linkedin: "#0077b5",
         telegram: "#2AABEE",
         github: "#333333",
         instagram: "#E1306C",
         twitter: "#1DA1F2",
         email: "#EA4335",
-        tan: "#ECEAE3",
       },
       backgroundImage: {
         hackathons: "url('/src/assets/hackathons.png')",
