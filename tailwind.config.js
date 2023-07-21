@@ -6,6 +6,7 @@ export default {
     extend: {
       colors: {
         gray: "#999999",
+        highlight: "#f5f5f5",
         secondary: "#f5f5f5",
         primary: "#ECEAE3",
         linkedin: "#0077b5",

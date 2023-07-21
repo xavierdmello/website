@@ -4,10 +4,14 @@
 @tailwind utilities;
 
 @layer base {
+::selection {
+  @apply bg-highlight
+}
 
-  html {
-    @apply bg-primary
-  }
+
+html {
+  @apply bg-primary
+}
   h1,
   h2,
   h3 {
