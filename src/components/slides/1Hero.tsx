@@ -29,13 +29,14 @@ export default function Hero() {
         <div className="h-24 sm:h-40"></div>
         <Codec text="INTRO" className="mb-6" />
         <div className="slide">
-          <h1 className="3xl:mb-12 mb-6 relative text-2xl sm:text-3xl max-w-none md:max-w-sm lg:max-w-3xl 3xl:text-6xl 3xl:max-w-5xl">
-            Hi, I'm Xavier, a Full-Stack Developer based out of Waterloo, Canada.
+          <h1 className=" 3xl:mb-12 mb-6 relative  text-2xl sm:text-3xl max-w-none md:max-w-sm lg:max-w-3xl 3xl:text-6xl 3xl:max-w-5xl">
+            Hi, I'm Xavier, a Full-Stack Developer based out of Waterloo, Canada <h2 className="text-5xl waveAnimate">👋</h2>
           </h1>
+
           <Link text="About me" href="https://www.xavierdmello.com/about" />
         </div>
 
-        <div className="mb-16 sm:mb-32 3xl:mb-80"></div>
+        <div className="mb-16 sm:mb-32 3xl:mb-80 "></div>
 
         <Socials />
       </div>
