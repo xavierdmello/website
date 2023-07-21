@@ -11,7 +11,7 @@ export default function Header() {
         {/* Logo */}
         <a
           href="https://www.xavierdmello.com"
-          className={`w-12 h-12 sm:w-24 sm:h-24 bg-primary grid place-content-center hover:bg-black hover:text-white duration-500 transition-all`}
+          className={`w-12 h-12 sm:w-24 sm:h-24 bg-background grid place-content-center hover:bg-black hover:text-white duration-500 transition-all`}
         >
           <h1 className="text-2xl font-bold">xd.</h1>
         </a>

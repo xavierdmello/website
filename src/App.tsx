@@ -10,6 +10,9 @@ function App() {
       {/* First Slide */}
       <Hero />
 
+
+
+
       {/* Second Slide */}
       <About />
 

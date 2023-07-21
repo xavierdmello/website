@@ -14,6 +14,7 @@ export default {
         instagram: "#E1306C",
         twitter: "#1DA1F2",
         email: "#EA4335",
+        tan: "#ECEAE3",
       },
       backgroundImage: {
         hackathons: "url('/src/assets/hackathons.png')",

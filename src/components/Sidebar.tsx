@@ -5,7 +5,7 @@ export default function Sidebar(props: {showSidebar: boolean}) {
     const menuOptions = ["About", "Experience", "Hackathons", "Projects", "Contact"]
     return (
       <div
-        className={`fixed w-full sm:w-[500px] 3xl:w-[800px] bg-white  ${
+        className={`fixed w-full sm:w-[500px] 3xl:w-[800px] bg-tan  ${
           props.showSidebar ? "translate-x-0 visible" : "translate-x-full invisible"
         } flex flex-col justify-center items-center h-full transition-all shadow-lg duration-[600ms] z-10`}
       >
