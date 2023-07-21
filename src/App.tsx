@@ -1,6 +1,6 @@
 import Header from "./components/Header";
-import Hero from "./components/Slides/1Hero";
-import About from "./components/Slides/2About";
+import Hero from "./components/Slides/Hero";
+import About from "./components/Slides/About";
 
 function App() {
 
