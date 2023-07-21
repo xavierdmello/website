@@ -10,7 +10,9 @@
 
 
 html {
-  @apply bg-primary
+
+  @apply bg-primary scroll-smooth
+  
 }
   h1,
   h2,

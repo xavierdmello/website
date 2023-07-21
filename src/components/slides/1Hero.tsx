@@ -15,7 +15,8 @@ export default function Hero() {
   const [bg, setBg] = useState("bg-secondary");
 
   return (
-    <div className="flex md:border-b-gray  md:border-b-[1px] flex-row justify-between h-screen relative p-4 pt-0 md:p-0 min-h-[500px] sm:min-h-[700px]">
+    <div className="flex  md:border-b-gray  md:border-b-[1px] flex-row justify-between h-screen relative p-4 pt-0 md:p-0 min-h-[500px] sm:min-h-[700px]">
+      <a id="hero"></a>
       {/* Background */}
       {/* Not using background-image because of bug with tailwind */}
       <div className={`absolute left-0 fade0 -z-10  transition-all w-1/2 h-full bg-primary`}></div>
@@ -34,7 +35,7 @@ export default function Hero() {
             Hi, I'm Xavier, a Full-Stack Developer based out of Waterloo, Canada.
           </h1>
 
-          <Link text="About me" href="https://www.xavierdmello.com/about" />
+          <Link text="About me" href="#about" />
         </div>
 
         <div className="mb-16 sm:mb-32 3xl:mb-80 "></div>
@@ -48,16 +49,24 @@ export default function Hero() {
         <Codec text="MY WORK" className="mb-6 text-right" />
         <ul>
           <li>
-            <Giant text="Experience" onHover={setBg} className="gs1" />
+            <a href="#experience">
+              <Giant text="Experience" onHover={setBg} className="gs1" />
+            </a>
           </li>
           <li>
-            <Giant text="Hackathons" onHover={setBg} className="gs2" />
+            <a href="#hackathons">
+              <Giant text="Hackathons" onHover={setBg} className="gs2" />
+            </a>
           </li>
           <li>
-            <Giant text="Projects" onHover={setBg} className="gs3" />
+            <a href="#projects">
+              <Giant text="Projects" onHover={setBg} className="gs3" />
+            </a>
           </li>
           <li>
-            <Giant text="Contact" onHover={setBg} className="gs4" />
+            <a href="#contact">
+              <Giant text="Contact" onHover={setBg} className="gs4" />
+            </a>
           </li>
         </ul>
       </div>
