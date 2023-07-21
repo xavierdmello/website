@@ -13,8 +13,7 @@ function App() {
       {/* Second Slide */}
       <About />
 
-      {/* Temp: for dev purposes only */}
-      <div className="mb-[1000px]"></div>
+
     </div>
   );
 }
