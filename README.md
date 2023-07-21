@@ -2,4 +2,4 @@
 
 Tech stack: React, Vite, Typescript, Tailwind CSS
 
-https://www.xavierdmello.com
+Check it out: https://www.xavierdmello.com
