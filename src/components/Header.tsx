@@ -25,7 +25,7 @@ export default function Header() {
           className={`${
             showSidebar ? "visible opacity-100" : "invisible opacity-0"
           } fixed w-full h-full backdrop-blur-xl transform-gpu transition-all duration-300 z-[2]`}
-        ></div>
+        onClick={()=>setShowMenu(false)}></div>
 
         <Sidebar showSidebar={showSidebar} />
       </div>
