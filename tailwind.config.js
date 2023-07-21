@@ -8,7 +8,7 @@ export default {
         gray: "#999999",
         highlight: "#f5f5f5",
         secondary: "#f5f5f5",
-        primary: "#E1DED4",
+        primary: "#ECEAE3",
         linkedin: "#0077b5",
         telegram: "#2AABEE",
         github: "#333333",
