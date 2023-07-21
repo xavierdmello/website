@@ -15,7 +15,7 @@ export default function Hero() {
   const [bg, setBg] = useState("bg-secondary");
 
   return (
-    <div className="flex flex-row justify-between h-screen relative p-4 pt-0 md:p-0 min-h-[500px] sm:min-h-[700px]">
+    <div className="flex md:border-b-gray  md:border-b-[1px] flex-row justify-between h-screen relative p-4 pt-0 md:p-0 min-h-[500px] sm:min-h-[700px]">
       {/* Background */}
       {/* Not using background-image because of bug with tailwind */}
       <div className={`absolute left-0 fade0 -z-10  transition-all w-1/2 h-full bg-primary`}></div>
@@ -26,7 +26,7 @@ export default function Hero() {
       <BgImage image={contact} name="contacts" active={bg === "bg-contact"} />
 
       {/* Left Side */}
-      <div className="w-full md:w-1/2 md:dynamicPadding">
+      <div className="w-full md:w-1/2 md:border-r-gray md:border-r-[1px] md:dynamicPadding">
         <div className="h-24 sm:h-40"></div>
         <Codec text="INTRO" className="mb-6" />
         <div className="slide">
