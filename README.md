@@ -1,3 +1,3 @@
-My personal website
+# Personal website
 
 Tech stack: React, Vite, Typescript, Tailwind CSS
