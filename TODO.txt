@@ -1,1 +1,2 @@
 about section: skills, intro, picture
+eventually: find out a way to make the svg icons square
