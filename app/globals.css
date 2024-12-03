@@ -57,7 +57,7 @@
     --chart-5: 340 75% 55%;
   }
   h1 {
-    @apply font-medium;
+    @apply font-medium text-xl;
   }
   h2 {
     @apply text-muted-foreground text-lg font-medium;
