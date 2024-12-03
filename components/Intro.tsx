@@ -5,7 +5,7 @@ import { buttonVariants } from "@/components/ui/button";
 
 export default function Intro() {
   return (
-    <>
+    <div>
       <h1 className="mb-4">Xavier D'Mello</h1>
       <h2 className="leading-tight mb-2 sm:mb-1 ">
         Building AI Agents and Smart Contracts
@@ -51,6 +51,6 @@ export default function Intro() {
           <ArrowUpRight className="w-4 h-4 ml-1" />
         </Link>
       </div>
-    </>
+    </div>
   );
 }
