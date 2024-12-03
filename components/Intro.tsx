@@ -7,8 +7,12 @@ export default function Intro() {
   return (
     <>
       <h1 className="mb-4">Xavier D'Mello</h1>
-      <h2 className="-mb-1">Building AI Agents and Smart Contracts</h2>
-      <h2 className="mb-6">Computer Science @ Wilfrid Laurier University</h2>
+      <h2 className="leading-tight mb-2 sm:mb-1 ">
+        Building AI Agents and Smart Contracts
+      </h2>
+      <h2 className="mb-6 leading-tight">
+        Computer Science @ Wilfrid Laurier University
+      </h2>
       <div className="flex gap-2 flex-wrap">
         <Link
           href="https://twitter.com/0xDmello"

@@ -6,7 +6,7 @@ import Intro from "@/components/Intro";
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-screen max-w-3xl mx-auto pt-48 w-[93%]">
+    <div className="flex flex-col h-screen max-w-3xl mx-auto pt-36 sm:pt-48 w-[93%]">
       <Intro />
     </div>
   );
