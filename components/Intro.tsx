@@ -7,9 +7,11 @@ export default function Intro() {
   return (
     <div>
       <h1 className="mb-4">Xavier D'Mello</h1>
-      <h2 className="leading-tight mb-2 sm:mb-1 ">
-        Building AI Agents, Augmented Reality, and Smart Contracts
-      </h2>
+      <div className="mb-2 sm:mb-1 ">
+        <h2 className="font-instrument text-xl">
+          AI Agents, Augmented Reality, and Smart Contracts
+        </h2>
+      </div>
       <h2 className="mb-6 leading-tight">
         Computer Science @ Wilfrid Laurier University
       </h2>
