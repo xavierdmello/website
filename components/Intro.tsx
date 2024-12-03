@@ -8,7 +8,7 @@ export default function Intro() {
     <div>
       <h1 className="mb-4">Xavier D'Mello</h1>
       <h2 className="leading-tight mb-2 sm:mb-1 ">
-        Building AI Agents and Smart Contracts
+        Building AI Agents, Augmented Reality, and Smart Contracts
       </h2>
       <h2 className="mb-6 leading-tight">
         Computer Science @ Wilfrid Laurier University
