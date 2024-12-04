@@ -29,7 +29,10 @@ const ianSegoe = localFont({
 
 export const metadata: Metadata = {
   title: "Xavier D'Mello",
-  description: "Building Smart Contracts and AI Agents",
+  description: "Building AI Agents, Augmented Reality, and Smart Contracts.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
