@@ -7,9 +7,7 @@ export default function Intro() {
   return (
     <div>
       <div className="mb-4">
-        <h1 className="font-ianSegoe text-[40px] ">
-          xavier d'mello
-        </h1>
+        <h1 className="font-ianSegoe text-[40px]">xavier d'mello</h1>
       </div>
 
       <h2 className="font-instrument font-bold text-xl">
