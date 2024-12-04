@@ -5,6 +5,7 @@ import { buttonVariants } from "@/components/ui/button";
 import Intro from "@/components/Intro";
 import Work from "@/components/Work";
 import Projects from "@/components/Projects";
+import News from "@/components/News";
 
 export default function Home() {
   return (
@@ -19,6 +20,10 @@ export default function Home() {
 
       <div className="animate-fade-in [--animation-delay:400ms]">
         <Projects />
+      </div>
+
+      <div className="animate-fade-in [--animation-delay:600ms]">
+        <News />
       </div>
     </div>
   );
