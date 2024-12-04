@@ -20,7 +20,7 @@ export default function Intro() {
       <div className="flex gap-2 flex-wrap">
         <Link
           href="https://twitter.com/0xDmello"
-          className={buttonVariants({ variant: "outline" })}
+          className={buttonVariants({ variant: "secondary" })}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -29,7 +29,7 @@ export default function Intro() {
         </Link>
         <Link
           href="https://www.linkedin.com/in/xavier-d-mello-552276240/"
-          className={buttonVariants({ variant: "outline" })}
+          className={buttonVariants({ variant: "secondary" })}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -38,7 +38,7 @@ export default function Intro() {
         </Link>
         <Link
           href="https://github.com/xavierdmello"
-          className={buttonVariants({ variant: "outline" })}
+          className={buttonVariants({ variant: "secondary" })}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -47,7 +47,7 @@ export default function Intro() {
         </Link>
         <Link
           href="mailto:hello@xavierdmello.com"
-          className={buttonVariants({ variant: "outline" })}
+          className={buttonVariants({ variant: "secondary" })}
           target="_blank"
           rel="noopener noreferrer"
         >
