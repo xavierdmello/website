@@ -8,11 +8,11 @@ export default function Intro() {
     <div>
       <h1 className="mb-4">Xavier D'Mello</h1>
 
-      <h2 className="font-instrument text-xl">
+      <h2 className="font-instrument font-bold text-xl">
         AI Agents, Augmented Reality, and Smart Contracts
       </h2>
 
-      <h2 className="mb-6 font-instrument text-xl">
+      <h2 className="mb-6 font-instrument font-bold text-xl">
         Computer Science @ Wilfrid Laurier University
       </h2>
       <div className="flex gap-2 flex-wrap">
